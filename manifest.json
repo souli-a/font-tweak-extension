@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Font Tweak Extension",
+  "version": "1.0",
+  "description": "Chrome extension to modify font parameters on websites",
+  "permissions": ["activeTab"],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "icon.png"
+  }
+}
