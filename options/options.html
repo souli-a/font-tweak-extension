@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Font Tweak Settings</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./options.css" />
+    <script src="./options.js"></script>
+    <link rel="icon" type="image/png" href="../icons/icon.png" />
+    <link rel="stylesheet" href="../global/reset.css" />
+  </head>
+  <body>
+    <div class="settings">
+      <h1>Settings</h1>
+      <div class="options">
+        <div class="input-cell">
+          <label for="font-family">Font:</label>
+          <input
+            type="text"
+            name="font-family"
+            class="font-family-input"
+            value="Sans-serif"
+          />
+          <span class="info-range-input"
+            >The font needs to be installed on your computer</span
+          >
+        </div>
+        <div class="input-cell">
+          <label for="letter-spacing">Space Between Letters:</label>
+          <input
+            type="number"
+            name="letter-spacing"
+            class="letter-spacing-input"
+            value="0"
+            min="0"
+            max="10"
+            step=".1"
+          />
+          <span class="info-range-input">0 to 5</span>
+        </div>
+        <div class="input-cell">
+          <label for="line-height">Space Between Lines:</label>
+          <input
+            type="number"
+            name="line-height"
+            class="line-height-input"
+            value="100"
+            min="100"
+            max="250"
+          />
+          <span class="info-range-input">100 to 250</span>
+        </div>
+      </div>
+      <div class="operation-buttons">
+        <button class="save-button">Save</button>
+        <button class="reset-button">Reset</button>
+      </div>
+    </div>
+  </body>
+</html>

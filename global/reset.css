@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  display: flex;
+  flex-grow: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  word-wrap: break-word;
+}
+
+button,
+input {
+  all: unset;
+}
